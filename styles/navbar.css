@@ -1,0 +1,55 @@
+/* Pengaturan halaman */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Background navbar */
+#main-header {
+    background-color: #17233d;
+}
+
+/* Flexbox */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+/* Logo */
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Menu */
+.nav-menu {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menghilangkan tanda titik */
+.nav-menu > li {
+    list-style: none;
+}
+
+/* Tautan */
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hover */
+.nav-menu a:hover {
+    color: orange;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 14px;
+}
