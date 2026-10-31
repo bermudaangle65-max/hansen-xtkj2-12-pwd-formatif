@@ -1,0 +1,100 @@
+/* 1. Pengaturan halaman */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+
+    background-image:
+        linear-gradient(
+            rgba(241, 245, 249, 0.75),
+            rgba(241, 245, 249, 0.75)
+        ),
+        url("../assets/images/Background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* 2. Bagian galeri */
+#gallery {
+    width: 900px;
+    max-width: calc(100% - 32px);
+    margin: 40px auto;
+}
+
+/* 3. Judul galeri */
+#gallery h2 {
+    text-align: center;
+    color: #17233d;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* 4. Susunan Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* 5. Kartu galeri */
+.gallery > .gallery-item {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    background-color: rgba(255, 255, 255, 0.95);
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* 6. Efek kartu saat disentuh */
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
+
+/* 7. Gambar */
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    display: block;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+/* 8. Judul setiap proyek */
+.gallery-item h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    color: #17233d;
+}
+
+/* 9. Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    display: inline-block;
+    padding: 12px 24px;
+
+    background-color: #2563eb;
+    color: white;
+
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: navy;
+}
