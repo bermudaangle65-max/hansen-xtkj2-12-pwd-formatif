@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sidebar Hansen</title>
+
+    <style>
+        
+        * {
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fb;
+        }
+
+        
+        .layout {
+            display: flex;
+            min-height: 500px;
+        }
+
+        
+        #sidebar {
+            width: 25%;
+            background-color: #17233d;
+            color: white;
+            padding: 20px;
+        }
+
+        #sidebar h3 {
+            font-size: 22px;
+            margin-top: 0;
+        }
+
+        
+        #sidebar nav {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        
+        #sidebar a {
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        
+        #sidebar a:hover {
+            background-color: #2563eb;
+        }
+
+       
+        .main-content {
+            width: 75%;
+            padding: 30px;
+            background-color: white;
+        }
+
+        
+        .main-content h1 {
+            color: #17233d;
+        }
+
+        .main-content p {
+            color: #444444;
+            line-height: 1.7;
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 14px;
+            background-color: #dddddd;
+        }
+
+        footer a {
+            color: #17233d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="layout">
+
+       
+        <aside id="sidebar">
+
+            <h3>Menu</h3>
+
+            <nav>
+                <a href="../index.html">Beranda</a>
+                <a href="../pages/about.html">Tentang</a>
+                <a href="../pages/gallery.html">Proyek</a>
+                <a href="../pages/contact.html">Kontak</a>
+            </nav>
+
+        </aside>
+
+        
+        <main class="main-content">
+
+            <h1>Selamat Datang di Website Saya</h1>
+
+            <p>
+                Halo! Nama saya Hansencius Thenrine.
+                Saya adalah siswa kelas X TKJ 2.
+            </p>
+
+            <p>
+                Saya sedang mempelajari HTML dan CSS
+                untuk mengembangkan kemampuan pemrograman web.
+            </p>
+
+            <p>
+                Saya berharap dapat membuat website
+                yang menarik, kreatif, dan bermanfaat.
+            </p>
+
+        </main>
+
+    </div>
+
+    
+    <footer>
+        <a href="../index.html">Kembali ke Beranda</a>
+    </footer>
+
+</body>
+</html>
