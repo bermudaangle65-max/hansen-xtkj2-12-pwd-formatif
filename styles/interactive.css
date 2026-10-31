@@ -1,0 +1,99 @@
+    body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #17233d;
+    border-radius: 12px;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+
+    /* Transition pada keadaan biasa */
+    transition: color 0.3s ease;
+}
+
+
+.menu a:hover {
+    color: orange;
+}
+
+
+main {
+    text-align: center;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+main h1 {
+    color: #17233d;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+.btn-grow {
+    background-color: #2563eb;
+    color: white;
+
+    transition: transform 0.3s ease-out;
+}
+
+
+.btn-grow:hover {
+    transform: scale(1.05);
+}
+
+
+.btn-darken {
+    background-color: #16a085;
+    color: white;
+
+    transition: background-color 0.4s linear;
+}
+
+
+.btn-darken:hover {
+    background-color: #0b6652;
+}
+
+
+a:focus {
+    outline: 3px solid orange;
+    outline-offset: 4px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #17233d;
+    text-decoration: none;
+    font-weight: bold;
+}
